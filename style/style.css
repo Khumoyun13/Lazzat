@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+	box-sizing: border-box;
+}
+
+.header {
+	font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding: 50px;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.header-title {
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.header-text {
+    font-weight: bold;
+}
+
+.nav {
+    margin-top: 35px;
+}
+
+.nav-ul {
+    width: 960px;
+    margin: 0 auto;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid darkgray;
+    font-size: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-li {
+    display: inline-block;
+}
+
+.nav-link {
+	font-family: 'Comfortaa', cursive;
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    padding: 20px;
+    transition: background-color 0.5s;
+}
+
+.nav-link:hover {
+    background-color: lightgray;
+}
+
+.nav-link:focus {
+    background-color: lightgray;
+}
+
+.main-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-ul {
+    width: 990px;
+    margin: 35px auto;
+}
+
+.main-li {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+}
+
+.main-img {
+	margin: 10px 0;
+	
+}
+
+.main-link {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+	padding: 3px 17px;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.lightorange {
+	background-color: rgb(255, 199, 94);
+}
+
+.blue {
+	background-color: turquoise;
+}
+
+.pink {
+	background-color: rgb(253, 4, 108);
+}
+
+.green {
+	background-color: greenyellow;
+}
+
+.main-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin: 20px 0 5px;
+	font-size: 17px;
+	color: black;
+}
+
+.main-p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: black;
+}
+
+.main {
+	margin: 0 auto;
+}
+
+.section {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: rgb(253, 4, 46);
+	border: 2px solid rgb(253, 4, 46);
+	padding: 10px 30px;
+	margin-bottom: 50px;
+	transition: background-color 0.5s;
+}
+
+.button:hover {
+	background-color: red;
+	color: white;
+}
+
+.button:focus {
+	background-color: red;
+	color: white;
+}
+
+.footer {
+	min-height: 250px;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+}
+
+#email {
+	font-weight: bold;
+	padding: 10px;
+	margin: 90px 100px 140px;
+	width: 450px;
+}
+
+.footer-button {
+	background-color: crimson;
+	color: white;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 35px;
+	transition: background-color 0.5s;
+}
+
+.footer-button:hover {
+	background-color: white;
+	color: crimson;
+}
+
